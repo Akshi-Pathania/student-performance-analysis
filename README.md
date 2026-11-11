@@ -115,12 +115,14 @@ NumPy, Pandas, Matplotlib, Seaborn, Plotly and scikit-learn (see `requirements.t
 
 ## How to Run
 
-```bash
-git clone https://github.com/Akshi-Pathania/student-performance-analysis.git
-cd student-performance-analysis
-pip install -r requirements.txt
-jupyter notebook Student_Performance_Analysis.ipynb
-```
+This notebook was developed and run in Google Colab, with the dataset stored in Google Drive. To run it:
+
+1. Open `Student_Performance_Analysis.ipynb` in Google Colab (or Jupyter).
+2. Upload `data/academic_survival_longitudinal.csv` and update the file paths in the cells that load the data (cells 2, 3, 18 and 39) and the `IMG_DIR` folder in the chart cells to match your own location.
+3. Install the libraries with `pip install -r requirements.txt` (Colab already has most of them).
+4. Run all cells from top to bottom.
+
+All outputs, including the charts, are already saved in the notebook and in the `images/` folder, so the results can be viewed without re-running.
 
 The dataset is already in the `data/` folder. Run all cells from top to bottom. Charts are saved automatically in the `images/` folder.
 
