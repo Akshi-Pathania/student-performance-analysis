@@ -104,6 +104,7 @@ student-performance-analysis/
 ├── Student_Performance_Analysis.ipynb
 ├── data/
 │   └── academic_survival_longitudinal.csv
+    └── cleaned_academic_survival.csv
 └── images/
     └── (Matplotlib PNGs and Plotly HTML files)
 ```
